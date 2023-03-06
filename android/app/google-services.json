@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43474848615",
+    "project_id": "tokio-marine-desafio",
+    "storage_bucket": "tokio-marine-desafio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43474848615:android:c4cd779cd0600efec53dc2",
+        "android_client_info": {
+          "package_name": "com.example.tokio_marine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43474848615-uc5rea335ids2qllerlbp0tial8jgo35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMfIBRWGnu4HnqqBj3n5tB1K__rXrD47w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43474848615-uc5rea335ids2qllerlbp0tial8jgo35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
