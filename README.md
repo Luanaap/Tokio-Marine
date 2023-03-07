@@ -1,16 +1,20 @@
-# tokio_marine
+<h1 align="center">Tokio Marine Teste Desenvolvedor Flutter</h1> 
 
-A new Flutter project.
+O desafio consiste em fazer a tela de login e entrar na Home em flutter, 
+utilizando Firebase para login.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<h1 align="center">Como utilizar?</h1> 
 
-A few resources to get you started if this is your first Flutter project:
+1- Você precisa ter o Flutter 
+2- Android Studio
+3- Plugins do Flutter e Dart tanto no visual studio como no Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h1 align="center">Como ficou?</h1>
+
+<image src="assets\images\Screenshot_1.png">
+<image src="assets\images\Screenshot_2.png">
+<image src="assets\images\Screenshot_3.png">
+
+
