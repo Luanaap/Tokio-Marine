@@ -11,23 +11,14 @@ class Logo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: kIsWeb
-          ? MainAxisAlignment.center
-          : BarApp
-              ? MainAxisAlignment.spaceEvenly
-              : MainAxisAlignment.start,
       children: [
         Image.asset(
-          fit: BoxFit.cover,
+          fit: BoxFit.fill,
           Images.logo,
-          height: 40,
+          height: 80,
+          alignment: Alignment.topRight,
+          color: Colors.white,
         ),
-        Text('TOKIO MARINE \nSEGURADORA',
-            textAlign: TextAlign.justify,
-            style: AppTextStyle.appRoboto(
-              fontSize: 14,
-              fontWeight: FontWeight.w500,
-            ))
       ],
     );
   }

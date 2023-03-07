@@ -24,8 +24,8 @@ class BackgroundContainer extends StatelessWidget {
         children: [
           Padding(
             padding: EdgeInsets.symmetric(
-              vertical: size.height * 0.5,
-              horizontal: size.width * 0.075,
+              vertical: size.height * 0.060,
+              horizontal: size.width * 0.060,
             ),
             child: Column(
               crossAxisAlignment:
@@ -33,7 +33,8 @@ class BackgroundContainer extends StatelessWidget {
               children: [
                 const Logo(),
                 const SizedBox(
-                  height: 20,
+                  height: 2,
+                  width: 10,
                 ),
                 SizedBox(
                   width: size.width,
@@ -41,7 +42,7 @@ class BackgroundContainer extends StatelessWidget {
                     'Bem-vindo!',
                     textAlign: kIsWeb ? TextAlign.center : TextAlign.start,
                     style: AppTextStyle.appRoboto(
-                        fontSize: 25, fontWeight: FontWeight.bold),
+                        fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                 ),
                 const SizedBox(

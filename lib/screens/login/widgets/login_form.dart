@@ -32,7 +32,7 @@ class FormLogin extends StatelessWidget {
               ),
               TextInput(
                 label: 'Senha',
-                controller: cpfController,
+                controller: passwordController,
                 validator: ((value) {
                   return null;
                 }),
@@ -41,7 +41,7 @@ class FormLogin extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.only(top: 10),
+          padding: const EdgeInsets.only(top: 2),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

@@ -36,7 +36,9 @@ class TextButtonLogin extends StatelessWidget {
                     width: 20,
                     color: ColorsMarine.green,
                   )
-                : Container()
+                : Container(
+                    color: ColorsMarine.green,
+                  )
           ],
         ),
       ),

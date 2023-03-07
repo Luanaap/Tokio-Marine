@@ -7,11 +7,11 @@ import '../models/home_card.dart';
 class Data {
   List<CarouselIemModel> carouselItens = [
     CarouselIemModel(
-      'Auto',
+      'Automóvel',
       FontAwesomeIcons.car,
     ),
     CarouselIemModel(
-      'Casa',
+      'Residência',
       FontAwesomeIcons.house,
     ),
     CarouselIemModel(
@@ -19,30 +19,21 @@ class Data {
       FontAwesomeIcons.heartCircleCheck,
     ),
     CarouselIemModel(
-      'Familiar',
+      'Acidentes Pessoais',
       FontAwesomeIcons.peopleGroup,
-    ),
-    CarouselIemModel(
-      'Celular',
-      Icons.mobile_friendly,
     ),
   ];
 
   List<HomeCardModel> homeCards = [
     HomeCardModel(
       'Minha Familia',
-      'Não tem nada ainda aqui sobre sua familia',
-      Icons.family_restroom,
+      'Adicione aqui membros da sua família e  compartilhe os seguros com eles.',
+      Icons.add_circle_outline_rounded,
     ),
     HomeCardModel(
       'Contrados',
-      'Não tem nenhum contratado ainda',
+      'Você ainda não possui seguros contratados',
       Icons.emoji_emotions,
     ),
-    HomeCardModel(
-      'Carro',
-      'Não informações aqui ainda sobre seu carro',
-      FontAwesomeIcons.car,
-    )
   ];
 }

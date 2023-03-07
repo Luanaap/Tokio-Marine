@@ -28,9 +28,9 @@ class UserCard extends StatelessWidget {
         child: Row(
           children: [
             CircleAvatar(
-              backgroundColor: Colors.purple,
+              backgroundColor: Colors.white,
               child: Text(
-                'GB',
+                '',
                 style: AppTextStyle.appRoboto(),
               ),
             ),
@@ -44,7 +44,7 @@ class UserCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Bem-vindo (a),',
+                    'Bem-vindo',
                     textAlign: TextAlign.start,
                     style: AppTextStyle.appRoboto(
                       fontSize: 12,

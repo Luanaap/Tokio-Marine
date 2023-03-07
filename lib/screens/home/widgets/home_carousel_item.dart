@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:tokio_marine/theme/colors.dart';
 
 import '../../../theme/text_style.dart';
+import '../../web_view_app.dart';
 
 class HomeCarouselItem extends StatelessWidget {
   final Size size;
@@ -19,7 +20,9 @@ class HomeCarouselItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      //onTap: () => text == 'Auto' ? Navigator.pushNamed(context) : {},
+      onTap: () => text == 'Automóvel'
+          ? Navigator.pushNamed(context, WebViewApp.route)
+          : {},
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 8),
         decoration: BoxDecoration(
@@ -32,7 +35,7 @@ class HomeCarouselItem extends StatelessWidget {
           children: [
             Icon(
               icon,
-              color: ColorsMarine.limeGreen,
+              color: ColorsMarine.green,
               size: kIsWeb ? 20 : 40,
             ),
             SizedBox(

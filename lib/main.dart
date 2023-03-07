@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'firebase_app.dart';
+import 'package:tokio_marine/app.dart';
 
 void main() {
-  runApp(FirebaseApp());
+  runApp(App());
 }

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tokio_marine/screens/home/widgets/home_app_bar.dart';
+import 'package:tokio_marine/screens/home/widgets/home_cards.dart';
 import 'package:tokio_marine/screens/home/widgets/home_drawer.dart';
 import 'package:tokio_marine/screens/home/widgets/user_card.dart';
+
+import '../widgets/home_carousel.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -21,6 +24,8 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             UserCard(size: size, name: 'Luana'),
+            HomeCarousel(size: size),
+            HomeCards(size: size)
           ],
         ),
       ),

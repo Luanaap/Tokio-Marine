@@ -24,16 +24,15 @@ class DrawerTextButton extends StatelessWidget {
       onTap: onTap,
       child: SizedBox(
         width: double.infinity,
-        height: size.height * 0.5,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             isLogout
                 ? Container()
                 : const Padding(
-                    padding: EdgeInsets.only(left: 20, right: 40),
+                    padding: EdgeInsets.only(left: 20, right: 20),
                     child: Icon(
-                      Icons.satellite,
+                      Icons.settings,
                       color: ColorsMarine.green,
                       size: 30,
                     ),
@@ -44,7 +43,7 @@ class DrawerTextButton extends StatelessWidget {
                     child: Text(
                       text,
                       style: AppTextStyle.appRoboto(
-                        color: ColorsMarine.limeGreen,
+                        color: ColorsMarine.green,
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
                       ),
