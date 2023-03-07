@@ -21,7 +21,8 @@ class HomeAppBar extends AppBar {
             ),
             title: Image.asset(
               Images.logo,
-              height: size.height * 0.05,
+              height: size.height * 0.30,
+              color: Colors.white,
             ),
             actions: [
               Padding(

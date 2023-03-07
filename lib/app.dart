@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 import 'package:tokio_marine/providers/auth.dart';
 import 'package:tokio_marine/screens/home/view/home.dart';
+import 'package:tokio_marine/screens/web_view_app.dart';
 import 'package:tokio_marine/theme/colors.dart';
 
 import 'screens/login/view/login.dart';
@@ -26,6 +27,7 @@ class App extends StatelessWidget {
           routes: {
             LoginInitial.route: (context) => const LoginInitial(),
             HomeScreen.route: (context) => const HomeScreen(),
+            WebViewApp.route: (context) => const WebViewApp(),
           }),
     );
   }
